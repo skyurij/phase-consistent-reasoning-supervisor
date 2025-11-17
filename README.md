@@ -1,5 +1,10 @@
-Phase-Consistent Reasoning Supervisor
-Detecting semantic drift, abstraction jumps, and phase transitions in dialogue with LLMs
+# Phase-Consistent Reasoning Supervisor
+
+![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)
+![Status](https://img.shields.io/badge/Status-Research%20Prototype-orange.svg)
+
+### Detecting semantic drift, abstraction jumps, and phase transitions in dialogue with LLMs
 This repository contains a working prototype of a system that analyzes reasoning coherence in human–LLM interaction. It detects when the model silently drifts away from the user’s intended meaning, even while staying superficially coherent.
 
 The system is based on several months of experiments using OpenAI tools (ChatGPT, Assistants API, embeddings). Experimental results match the theoretical phase-dynamics model described in docs/theoretical_basis.md.
